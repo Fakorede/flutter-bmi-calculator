@@ -55,15 +55,15 @@ class ResultsPage extends StatelessWidget {
                     style: kBodyTextStyle,
                     textAlign: TextAlign.center,
                   ),
-                  BottomButton(
-                    buttonTitle: 'RE-CALCULATE',
-                    onTap: () {
-                      Navigator.pop(context);
-                    },
-                  ),
                 ],
               ),
             ),
+          ),
+          BottomButton(
+            buttonTitle: 'RE-CALCULATE',
+            onTap: () {
+              Navigator.pop(context);
+            },
           ),
         ],
       ),
